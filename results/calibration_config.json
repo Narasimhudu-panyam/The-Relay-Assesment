@@ -1,0 +1,31 @@
+{
+  "sample_size_provider_calls": 2,
+  "sample_size_local_refusals": 3,
+  "measured_ttft_ms": [
+    1029.33,
+    1235.2
+  ],
+  "measured_ttft_p50_ms": 1132.26,
+  "measured_ttft_p95_ms": 1224.91,
+  "measured_total_p50_ms": 1662.47,
+  "measured_total_p95_ms": 1747.52,
+  "measured_inter_token_ms_median": 0.72,
+  "avg_tokens_in": 2939.0,
+  "avg_tokens_out": 397.5,
+  "standin_config": {
+    "base_ttft_ms": 1132.26,
+    "ttft_jitter_ms": 102.94,
+    "inter_token_ms": 0.72,
+    "concurrency_penalty_ms": 60.0,
+    "failure_probability": 0.0,
+    "rate_limit_probability": 0.0,
+    "timeout_probability": 0.0,
+    "rpm_limit": 30,
+    "rpd_limit": 1000,
+    "daily_exhausted": false,
+    "deterministic_fail_mode": "none",
+    "target_output_tokens": 150,
+    "slow_response_extra_ms": 0.0,
+    "seed": 42
+  }
+}

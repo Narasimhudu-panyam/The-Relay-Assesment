@@ -1,0 +1,463 @@
+[
+  {
+    "qid": "Q01",
+    "request_id": "6aff0146-993e-4774-8fc8-271d71c99a26",
+    "start_time": "2026-11-12T06:37:17.486795+00:00",
+    "model": "openai/gpt-oss-120b",
+    "status": "ok",
+    "refused": false,
+    "first_token_ms": 1029.33,
+    "total_ms": 1756.97,
+    "tokens_in": 2440,
+    "tokens_out": 389,
+    "retries": 0,
+    "citations": [
+      {
+        "paper_id": "1706.03762v7",
+        "paper_title": "Attention Is All You Need",
+        "paper_version": "v7",
+        "page_number": 4,
+        "section": "Introduction",
+        "chunk_id": "1706.03762v7_p4_c5"
+      }
+    ],
+    "answer_preview": "The dot\u2011product between each query and key is **divided by\u202f\u221ad\u2096** (i.e., multiplied by\u202f1/\u221ad\u2096) before the softmax is applied. This scaling is introduced because, as the key dimension d\u2096 grows, the raw dot products become large in magnitude, w",
+    "stage_timings": [
+      {
+        "stage": "question_analysis",
+        "duration_ms": 0.26,
+        "details": {
+          "intent": "factual",
+          "keywords": [
+            "attention",
+            "all",
+            "you",
+            "need",
+            "scaling",
+            "factor",
+            "applied",
+            "dot",
+            "products",
+            "before",
+            "softmax",
+            "scaled",
+            "dot-product",
+            "attention"
+          ]
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_0",
+        "duration_ms": 458.9,
+        "details": {
+          "count": 5,
+          "top_score": 0.7525
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_0",
+        "duration_ms": 0.11,
+        "details": {
+          "action": "PROCEED",
+          "top_score": 0.7525
+        }
+      },
+      {
+        "stage": "queue_wait",
+        "duration_ms": 0.14,
+        "details": {}
+      },
+      {
+        "stage": "answer_generation_0",
+        "duration_ms": 1288.65,
+        "details": {
+          "http_status": 200,
+          "first_token_ms": 1029.33,
+          "retries": 0,
+          "retry_wait_ms": 0.0,
+          "tokens_in": 2440,
+          "tokens_out": 389,
+          "rate_limit_headers": {
+            "x-ratelimit-limit-requests": "1000",
+            "x-ratelimit-limit-tokens": "8000",
+            "x-ratelimit-remaining-requests": "998",
+            "x-ratelimit-remaining-tokens": "5207",
+            "x-ratelimit-reset-requests": "2m52.8s",
+            "x-ratelimit-reset-tokens": "20.947s"
+          }
+        }
+      },
+      {
+        "stage": "answer_verification_0",
+        "duration_ms": 0.06,
+        "details": {
+          "passed": true,
+          "reason": "All citations verified against retrieved passages."
+        }
+      }
+    ],
+    "rate_limiter_snapshot": {
+      "current_rpm": 1,
+      "max_rpm": 25,
+      "current_tpm": 2829,
+      "max_tpm": 7000,
+      "daily_requests": 1,
+      "max_rpd": 900,
+      "daily_tokens": 2829,
+      "max_tpd": 180000,
+      "daily_exhausted": false,
+      "provider_remaining_requests": 998,
+      "provider_remaining_tokens": 5207
+    }
+  },
+  {
+    "qid": "Q04",
+    "request_id": "209bebbf-a2c7-49df-8dde-44463d2701b2",
+    "start_time": "2026-11-12T06:37:21.267664+00:00",
+    "model": "openai/gpt-oss-120b",
+    "status": "ok",
+    "refused": false,
+    "first_token_ms": 1235.2,
+    "total_ms": 1567.97,
+    "tokens_in": 3438,
+    "tokens_out": 406,
+    "retries": 0,
+    "citations": [
+      {
+        "paper_id": "2410.00037v1",
+        "paper_title": "Moshi: a speech-text foundation model for real-time dialogue",
+        "paper_version": "v1",
+        "page_number": 14,
+        "section": "2 Related Work",
+        "chunk_id": "2410.00037v1_p14_c24"
+      },
+      {
+        "paper_id": "2410.00037v1",
+        "paper_title": "Moshi: a speech-text foundation model for real-time dialogue",
+        "paper_version": "v1",
+        "page_number": 23,
+        "section": "2 Related Work",
+        "chunk_id": "2410.00037v1_p23_c40"
+      }
+    ],
+    "answer_preview": "Moshi uses a neural audio codec called **Mimi**.  Mimi produces\u202fQ\u202fsub\u2011sequences at a **frame rate of 12.5\u202fsteps\u202fper\u202fsecond** (i.e., 12.5\u202fHz)\u202f\u3010Moshi: a speech\u2011text foundation model for real\u2011time dialogue (2410.00037v1), Page\u202f14, Section:\u202f2\u202fR",
+    "stage_timings": [
+      {
+        "stage": "question_analysis",
+        "duration_ms": 0.5,
+        "details": {
+          "intent": "mechanistic",
+          "keywords": [
+            "name",
+            "architecture",
+            "neural",
+            "audio",
+            "codec",
+            "used",
+            "moshi",
+            "at",
+            "frame",
+            "rate",
+            "it",
+            "operate"
+          ]
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_0",
+        "duration_ms": 15.51,
+        "details": {
+          "count": 5,
+          "top_score": 0.5575
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_0",
+        "duration_ms": 0.15,
+        "details": {
+          "action": "PROCEED",
+          "top_score": 0.5575
+        }
+      },
+      {
+        "stage": "queue_wait",
+        "duration_ms": 0.12,
+        "details": {}
+      },
+      {
+        "stage": "answer_generation_0",
+        "duration_ms": 1546.94,
+        "details": {
+          "http_status": 200,
+          "first_token_ms": 1235.2,
+          "retries": 0,
+          "retry_wait_ms": 0.0,
+          "tokens_in": 3438,
+          "tokens_out": 406,
+          "rate_limit_headers": {
+            "x-ratelimit-limit-requests": "1000",
+            "x-ratelimit-limit-tokens": "8000",
+            "x-ratelimit-remaining-requests": "997",
+            "x-ratelimit-remaining-tokens": "1808",
+            "x-ratelimit-reset-requests": "4m19.2s",
+            "x-ratelimit-reset-tokens": "46.44s"
+          }
+        }
+      },
+      {
+        "stage": "answer_verification_0",
+        "duration_ms": 0.08,
+        "details": {
+          "passed": true,
+          "reason": "All citations verified against retrieved passages."
+        }
+      }
+    ],
+    "rate_limiter_snapshot": {
+      "current_rpm": 2,
+      "max_rpm": 25,
+      "current_tpm": 6673,
+      "max_tpm": 7000,
+      "daily_requests": 2,
+      "max_rpd": 900,
+      "daily_tokens": 6673,
+      "max_tpd": 180000,
+      "daily_exhausted": false,
+      "provider_remaining_requests": 997,
+      "provider_remaining_tokens": 1808
+    }
+  },
+  {
+    "qid": "Q07",
+    "request_id": "1790d27a-4788-4de5-9198-c76d4395decf",
+    "start_time": "2026-11-12T06:37:24.838374+00:00",
+    "model": "openai/gpt-oss-120b",
+    "status": "rate_limited",
+    "refused": true,
+    "first_token_ms": null,
+    "total_ms": 39.68,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "retries": 0,
+    "citations": [],
+    "answer_preview": "Request could not be served within deadline due to rate-limit pacing.",
+    "stage_timings": [
+      {
+        "stage": "question_analysis",
+        "duration_ms": 0.09,
+        "details": {
+          "intent": "comparative",
+          "keywords": [
+            "problem",
+            "dynamic",
+            "chunking",
+            "h-net",
+            "aim",
+            "solve",
+            "compared",
+            "fixed",
+            "bpe",
+            "tokenization"
+          ]
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_0",
+        "duration_ms": 17.67,
+        "details": {
+          "count": 5,
+          "top_score": 0.4981
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_0",
+        "duration_ms": 0.46,
+        "details": {
+          "action": "REFINE",
+          "top_score": 0.4981
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_1",
+        "duration_ms": 20.39,
+        "details": {
+          "count": 5,
+          "top_score": 0.535
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_1",
+        "duration_ms": 0.36,
+        "details": {
+          "action": "PROCEED",
+          "top_score": 0.535
+        }
+      },
+      {
+        "stage": "queue_wait",
+        "duration_ms": 0.22,
+        "details": {}
+      }
+    ],
+    "rate_limiter_snapshot": {
+      "current_rpm": 2,
+      "max_rpm": 25,
+      "current_tpm": 6673,
+      "max_tpm": 7000,
+      "daily_requests": 2,
+      "max_rpd": 900,
+      "daily_tokens": 6673,
+      "max_tpd": 180000,
+      "daily_exhausted": false,
+      "provider_remaining_requests": 997,
+      "provider_remaining_tokens": 1808
+    }
+  },
+  {
+    "qid": "Q13",
+    "request_id": "3910e249-2a5d-4d95-be8f-6346812a4afd",
+    "start_time": "2026-11-12T06:37:26.878490+00:00",
+    "model": "openai/gpt-oss-120b",
+    "status": "rate_limited",
+    "refused": true,
+    "first_token_ms": null,
+    "total_ms": 18.95,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "retries": 0,
+    "citations": [],
+    "answer_preview": "Request could not be served within deadline due to rate-limit pacing.",
+    "stage_timings": [
+      {
+        "stage": "question_analysis",
+        "duration_ms": 0.1,
+        "details": {
+          "intent": "factual",
+          "keywords": [
+            "exact",
+            "api",
+            "pricing",
+            "per",
+            "million",
+            "tokens",
+            "groq",
+            "llama",
+            "70b",
+            "model",
+            "2026"
+          ]
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_0",
+        "duration_ms": 17.99,
+        "details": {
+          "count": 5,
+          "top_score": 0.3864
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_0",
+        "duration_ms": 0.29,
+        "details": {
+          "action": "PROCEED",
+          "top_score": 0.3864
+        }
+      },
+      {
+        "stage": "queue_wait",
+        "duration_ms": 0.2,
+        "details": {}
+      }
+    ],
+    "rate_limiter_snapshot": {
+      "current_rpm": 2,
+      "max_rpm": 25,
+      "current_tpm": 6673,
+      "max_tpm": 7000,
+      "daily_requests": 2,
+      "max_rpd": 900,
+      "daily_tokens": 6673,
+      "max_tpd": 180000,
+      "daily_exhausted": false,
+      "provider_remaining_requests": 997,
+      "provider_remaining_tokens": 1808
+    }
+  },
+  {
+    "qid": "Q02",
+    "request_id": "767ecab6-6918-41bc-9b25-dc229262e895",
+    "start_time": "2026-11-12T06:37:28.903446+00:00",
+    "model": "openai/gpt-oss-120b",
+    "status": "rate_limited",
+    "refused": true,
+    "first_token_ms": null,
+    "total_ms": 28.35,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "retries": 0,
+    "citations": [],
+    "answer_preview": "Request could not be served within deadline due to rate-limit pacing.",
+    "stage_timings": [
+      {
+        "stage": "question_analysis",
+        "duration_ms": 0.15,
+        "details": {
+          "intent": "mechanistic",
+          "keywords": [
+            "many",
+            "parallel",
+            "attention",
+            "heads",
+            "per-head",
+            "dimensions",
+            "d_k",
+            "d_v",
+            "base",
+            "transformer",
+            "model",
+            "use",
+            "attention",
+            "all",
+            "you",
+            "need"
+          ]
+        }
+      },
+      {
+        "stage": "retrieval_tool_attempt_0",
+        "duration_ms": 27.21,
+        "details": {
+          "count": 5,
+          "top_score": 0.6903
+        }
+      },
+      {
+        "stage": "decision_engine_attempt_0",
+        "duration_ms": 0.3,
+        "details": {
+          "action": "PROCEED",
+          "top_score": 0.6903
+        }
+      },
+      {
+        "stage": "queue_wait",
+        "duration_ms": 0.23,
+        "details": {}
+      }
+    ],
+    "rate_limiter_snapshot": {
+      "current_rpm": 2,
+      "max_rpm": 25,
+      "current_tpm": 6673,
+      "max_tpm": 7000,
+      "daily_requests": 2,
+      "max_rpd": 900,
+      "daily_tokens": 6673,
+      "max_tpd": 180000,
+      "daily_exhausted": false,
+      "provider_remaining_requests": 997,
+      "provider_remaining_tokens": 1808
+    }
+  }
+]

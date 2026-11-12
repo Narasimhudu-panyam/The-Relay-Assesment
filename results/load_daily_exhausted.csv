@@ -1,0 +1,11 @@
+request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade
+f5e02be0-026d-4783-98da-6a6b4cd92296,daily_exhausted,stand-in,2026-11-12T06:40:01.988217+00:00,,37.11,rate_limited,0,,,S2_400w_k5_norerank,
+9d26558c-3e90-4c7c-ba55-e88eccaf9c3f,daily_exhausted,stand-in,2026-11-12T06:40:02.200203+00:00,,21.88,rate_limited,0,,,S2_400w_k5_norerank,
+0cd89d44-0fd1-48ae-8267-00db157f2902,daily_exhausted,stand-in,2026-11-12T06:40:02.401831+00:00,,69.47,rate_limited,0,,,S2_400w_k5_norerank,
+a8f3b1f6-4efe-47ba-9219-b5ed76098e12,daily_exhausted,stand-in,2026-11-12T06:40:02.606304+00:00,,65.69,rate_limited,0,,,S2_400w_k5_norerank,
+4205dace-bdcc-4682-9911-6e3b3f9580bb,daily_exhausted,stand-in,2026-11-12T06:40:02.796154+00:00,,36.37,rate_limited,0,,,S2_400w_k5_norerank,
+e1afec8b-71fa-4106-839c-8f3aba0128d5,daily_exhausted,stand-in,2026-11-12T06:40:03.016569+00:00,,32.58,rate_limited,0,,,S2_400w_k5_norerank,
+d8990510-dce1-44e5-b091-2c61f39500a4,daily_exhausted,stand-in,2026-11-12T06:40:03.220612+00:00,,32.29,rate_limited,0,,,S2_400w_k5_norerank,
+5ba8630c-dbfb-452a-ae9c-7424a8b4d40d,daily_exhausted,stand-in,2026-11-12T06:40:03.424052+00:00,,72.79,rate_limited,0,,,S2_400w_k5_norerank,
+9ffdb927-bb34-4c12-b05b-89eac4cbebc0,daily_exhausted,stand-in,2026-11-12T06:40:03.643578+00:00,,33.92,rate_limited,0,,,S2_400w_k5_norerank,
+015748dc-23f4-4aed-9e08-b2a793426cec,daily_exhausted,stand-in,2026-11-12T06:40:03.847476+00:00,,41.4,rate_limited,0,,,S2_400w_k5_norerank,

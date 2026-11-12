@@ -1,0 +1,130 @@
+[
+  {
+    "id": "Q01",
+    "category": "factual",
+    "target_paper": "1706.03762v7",
+    "question": "In Attention Is All You Need, what scaling factor is applied to the dot products before softmax in Scaled Dot-Product Attention, and why?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["sqrt", "d_k", "dk", "softmax", "gradient"]
+  },
+  {
+    "id": "Q02",
+    "category": "technical",
+    "target_paper": "1706.03762v7",
+    "question": "How many parallel attention heads and what per-head dimensions (d_k, d_v) does the base Transformer model use in Attention Is All You Need?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["8", "64", "512"]
+  },
+  {
+    "id": "Q03",
+    "category": "factual",
+    "target_paper": "1706.03762v7",
+    "question": "What optimizer and learning rate warmup schedule were used to train the Transformer in Attention Is All You Need?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["adam", "warmup", "4000", "beta"]
+  },
+  {
+    "id": "Q04",
+    "category": "factual",
+    "target_paper": "2410.00037v1",
+    "question": "What is the name and architecture of the neural audio codec used by Moshi, and at what frame rate does it operate?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["mimi", "12.5", "hz", "codec", "quantizer"]
+  },
+  {
+    "id": "Q05",
+    "category": "technical",
+    "target_paper": "2410.00037v1",
+    "question": "What is the Inner Monologue mechanism in Moshi and how does it improve spoken dialogue generation?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["inner monologue", "text", "audio", "tokens", "latency"]
+  },
+  {
+    "id": "Q06",
+    "category": "factual",
+    "target_paper": "2410.00037v1",
+    "question": "What is the parameter count and backbone model name of the text-pretrained language model inside Moshi?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["helium", "7b", "temporal", "transformer"]
+  },
+  {
+    "id": "Q07",
+    "category": "factual",
+    "target_paper": "2507.07955v2",
+    "question": "What problem does Dynamic Chunking (H-Net) aim to solve compared to fixed BPE tokenization?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["tokenization", "bpe", "hierarchical", "dynamic", "byte"]
+  },
+  {
+    "id": "Q08",
+    "category": "technical",
+    "target_paper": "2507.07955v2",
+    "question": "How does the routing module in H-Net determine chunk boundaries end-to-end?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["routing", "cosine", "similarity", "boundary", "compression"]
+  },
+  {
+    "id": "Q09",
+    "category": "multi_passage",
+    "target_paper": "2507.07955v2",
+    "question": "How does Dynamic Chunking handle gradient propagation across discrete chunk boundaries during backpropagation?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["straight-through", "ste", "smoothing", "gradient", "dechunking"]
+  },
+  {
+    "id": "Q10",
+    "category": "cross_paper",
+    "target_paper": "cross",
+    "question": "Compare how Attention Is All You Need and Moshi represent sequence positions or temporal streaming.",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["positional", "sinusoidal", "rope", "temporal", "streaming"]
+  },
+  {
+    "id": "Q11",
+    "category": "naive_trap",
+    "target_paper": "2507.07955v2",
+    "question": "In Dynamic Chunking, how does the paper define 'chunking' versus RAG text chunking?",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["byte", "sequence", "hierarchical", "routing"]
+  },
+  {
+    "id": "Q12",
+    "category": "naive_trap",
+    "target_paper": "2410.00037v1",
+    "question": "What BLEU score did Moshi achieve on WMT 2014 English-to-German translation?",
+    "expected_behavior": "refuse",
+    "ground_truth_keywords": []
+  },
+  {
+    "id": "Q13",
+    "category": "unsupported",
+    "target_paper": "none",
+    "question": "What is the exact API pricing per million tokens of Groq's Llama 3.3 70B model in 2026?",
+    "expected_behavior": "refuse",
+    "ground_truth_keywords": []
+  },
+  {
+    "id": "Q14",
+    "category": "unsupported",
+    "target_paper": "none",
+    "question": "How does DeepSeek-V3 implement Multi-Head Latent Attention (MLA) and FP8 mixed precision training?",
+    "expected_behavior": "refuse",
+    "ground_truth_keywords": []
+  },
+  {
+    "id": "Q15",
+    "category": "unsupported",
+    "target_paper": "none",
+    "question": "What hardware GPU cluster size was used to train GPT-4o?",
+    "expected_behavior": "refuse",
+    "ground_truth_keywords": []
+  },
+  {
+    "id": "Q16",
+    "category": "naive_trap",
+    "target_paper": "1706.03762v7",
+    "question": "Does Attention Is All You Need use Mimi acoustic tokens for speech synthesis?",
+    "expected_behavior": "refuse",
+    "ground_truth_keywords": []
+  }
+]

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Secrets & Local Config
+.env
+*.pem
+*.key
+
+# Vector cache / temporary models
+.cache/
+hf_cache/
+papers/indices/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temp
+*.log

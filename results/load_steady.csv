@@ -1,0 +1,13 @@
+request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade
+5aaaf19b-3994-446d-9a83-1134ec49fe0d,steady,stand-in,2026-11-12T06:38:54.984955+00:00,2641.39,3663.14,ok,0,1824,150,S2_400w_k5_norerank,correct
+32412b83-fc29-4da9-b2eb-e7ccb670a595,steady,stand-in,2026-11-12T06:38:57.493726+00:00,2389.26,2432.14,ok,0,2733,150,S2_400w_k5_norerank,correct
+4ac5223a-2fef-41b9-932c-fe65b02516db,steady,stand-in,2026-11-12T06:39:00.012053+00:00,2383.43,2461.98,ok,0,2437,150,S2_400w_k5_norerank,correct
+8c229029-cb7c-454f-b34c-a96f7a60f1d3,steady,stand-in,2026-11-12T06:39:02.511044+00:00,2726.02,2763.05,ok,0,2072,150,S2_400w_k5_norerank,correct
+336db26e-0525-424e-8c9f-eda4dc45ab88,steady,stand-in,2026-11-12T06:39:05.005632+00:00,2189.28,2224.31,ok,0,1838,150,S2_400w_k5_norerank,correct
+0066323a-4dd4-40d8-8737-7ae2ffebcf9b,steady,stand-in,2026-11-12T06:39:07.503033+00:00,3098.87,3179.1,ok,0,1824,150,S2_400w_k5_norerank,correct
+e9946ffe-c033-4617-8737-fed041c2273a,steady,stand-in,2026-11-12T06:39:10.005587+00:00,3124.89,3173.99,ok,0,2733,150,S2_400w_k5_norerank,correct
+69e87812-82d8-4193-ae48-59df5e058ac0,steady,stand-in,2026-11-12T06:39:12.499385+00:00,3177.98,3257.99,ok,0,2437,150,S2_400w_k5_norerank,correct
+26b1a685-2dc6-44c5-b9f8-8456cb4e7914,steady,stand-in,2026-11-12T06:39:15.004940+00:00,3126.56,3304.57,ok,0,2072,150,S2_400w_k5_norerank,correct
+ee44a698-1fe4-476a-9192-0c62d57199d6,steady,stand-in,2026-11-12T06:39:17.500708+00:00,2540.55,2747.51,ok,0,1838,150,S2_400w_k5_norerank,correct
+82884354-0b03-440e-8bc5-18632fc43c71,steady,stand-in,2026-11-12T06:39:20.004406+00:00,2669.53,2700.71,ok,0,1824,150,S2_400w_k5_norerank,correct
+01baa1d5-d3bb-4dc7-b6ca-6c8f46e96bb4,steady,stand-in,2026-11-12T06:39:22.512760+00:00,2806.59,2835.11,ok,0,2733,150,S2_400w_k5_norerank,correct
